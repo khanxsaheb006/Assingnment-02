@@ -222,6 +222,29 @@ header{
 }
 
 
+/* Footer section related style */
+.footer-section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.menu-1{
+    color: rgba(0, 0, 0, 0.5);
+}
+.menu-2{
+    color: rgba(0, 0, 0, 0.5);
+}
+.menu-3{
+    color: rgba(0, 0, 0, 0.5);
+}
+.menu-4{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    gap: 50px;
+}
+
+
 
 /* Header Related Responsive */
 

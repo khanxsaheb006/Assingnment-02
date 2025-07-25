@@ -88,6 +88,60 @@ header{
 }
 
 
+/* Plants Section Style */
+.plants-section{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.plants-details{
+    text-align: center;
+}
+.plants-title{
+    font-size: 50px;
+    font-weight: bold;
+    margin: 0 auto;
+}
+.plants-title>span{
+    color: #E95A08;
+}
+
+.plants-sub-title{
+    font-size: 22px;
+    color: rgba(0, 0, 0, 0.5);
+    margin: 15px 126px 50px;
+}
+
+
+.plants-box{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.plants-card{
+    max-width: 270px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.plant-price > h4,h3{
+    font-size: 22;
+}
+.plant-price > h4{
+    font-weight: 500;
+}
+.plant-price > h3{
+    font-weight: bold;
+}
+.cart-btn{
+    color: #FFFFFF;
+    background-color: #E95A08;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    width: 100%;
+    height: 50px;
+}
+
 /* Header Related Responsive */
 
 @media screen and (max-width: 576px) {

@@ -197,7 +197,7 @@ header{
     }
 
     .nav-logo {
-        width: 110px;
+        width: 63px;
         height: auto;
     }
 
@@ -214,12 +214,12 @@ header{
     .banner{
         /* flex-direction: column; */
         flex-direction: column-reverse;
-        margin: 0 auto;
+        margin: 0;
     }
     .banner-img{
         width: 100%;
         height: auto;
-        /* margin: 28px 16px; */
+        margin: 0%;
     }
     .banner-description{
         width: 100%;
@@ -260,5 +260,28 @@ header{
     }
     .plant-img{
         width: 100%;
+    }
+
+    /* Responsive Badge Section */
+    .badge-section{
+        flex-direction: column;
+        /* width: 361px;
+        height: 648px; */
+    }
+    .badge{
+        display: none;
+    }
+    .badge-img{
+        width: 100%;
+        height: auto;
+        margin: 0px;
+    }
+    .badge-title{
+        width: 100%;
+        font-size: 24px;
+        font-weight: bold;
+    }
+    .badge-details{
+        margin: 0;
     }
 }

@@ -116,6 +116,7 @@ header{
 .plants-box{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    margin-bottom: 150px;
 }
 .plants-card{
     max-width: 270px;
@@ -141,6 +142,43 @@ header{
     width: 100%;
     height: 50px;
 }
+
+
+/* Badge Section Styles */
+
+
+.badge-img{
+    width: 540px;
+    height: 597px;
+}
+.badge{
+    width: 286px;
+    height: 286px;
+    margin-left: -185px;
+    margin-top: -125px;
+    /* box-shadow: -4px 10px 4px 0px rgba(0, 0, 0, 0.25); */
+}
+.badge-section{
+    display: flex;
+    max-width: 1140px;
+    margin: 0 auto;
+    /* gap: 20px; */
+}
+.badge-details{
+    margin-bottom: 30px;
+}
+.badge-item{
+    margin-bottom: 20px;
+}
+.badge-title{
+    font-size: 50px;
+    font-weight: bold;
+}
+.badge-sub-title{
+    font-size: 22px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
 
 /* Header Related Responsive */
 

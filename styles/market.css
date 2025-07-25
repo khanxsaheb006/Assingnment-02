@@ -180,6 +180,49 @@ header{
 }
 
 
+/* Join Section Related Styles */
+.join-section {
+  background-image: url(../assets/news-letter-bg.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.join-title {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: white;
+}
+.join-item {
+  display: flex;
+  /* align-items: center; */
+}
+.input-mail {
+  padding: 12px 16px;
+  font-size: 16px;
+  width: 400px;
+  border: none;
+  /* border-radius: 5px; */
+  outline: none;
+}
+.join-item button {
+    width: 150px;
+  padding: 12px 24px;
+  /* width: 100px; */
+  font-size: 16px;
+  background-color: #E95A08;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+
+
 /* Header Related Responsive */
 
 @media screen and (max-width: 576px) {

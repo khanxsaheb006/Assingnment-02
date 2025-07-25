@@ -56,3 +56,30 @@ header{
 .nav-items > .nav-item-4 >  a {
     color: #252432;
 }
+
+/* Banner Related Styles */
+.banner{
+    display: flex;
+    margin: 220px 0 120px;
+}
+
+.banner-description{
+    width: 570px;
+    height: 299px;
+}
+.banner-title{
+    font-size: 65px;
+    font-weight: bold;
+}
+.banner-title>span{
+    color: #E95A08;
+}
+.banner-sub-title{
+    font-size: 22px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.banner-img{
+    width: 570px;
+    height: 355px;
+}
